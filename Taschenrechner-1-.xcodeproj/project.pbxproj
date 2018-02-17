@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		847EBCEC2038401F00ADF5A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847EBCEB2038401F00ADF5A0 /* AppDelegate.swift */; };
+		847EBCEE2038401F00ADF5A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847EBCED2038401F00ADF5A0 /* ViewController.swift */; };
+		847EBCF12038401F00ADF5A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847EBCEF2038401F00ADF5A0 /* Main.storyboard */; };
+		847EBCF32038401F00ADF5A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847EBCF22038401F00ADF5A0 /* Assets.xcassets */; };
+		847EBCF62038401F00ADF5A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847EBCF42038401F00ADF5A0 /* LaunchScreen.storyboard */; };
+		847EBD012038402000ADF5A0 /* Taschenrechner_1_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847EBD002038402000ADF5A0 /* Taschenrechner_1_Tests.swift */; };
+		847EBD0C2038402000ADF5A0 /* Taschenrechner_1_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847EBD0B2038402000ADF5A0 /* Taschenrechner_1_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		847EBCFD2038401F00ADF5A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847EBCE02038401F00ADF5A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 847EBCE72038401F00ADF5A0;
+			remoteInfo = "Taschenrechner-1-";
+		};
+		847EBD082038402000ADF5A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847EBCE02038401F00ADF5A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 847EBCE72038401F00ADF5A0;
+			remoteInfo = "Taschenrechner-1-";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		847EBCE82038401F00ADF5A0 /* Taschenrechner-1-.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taschenrechner-1-.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		847EBCEB2038401F00ADF5A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		847EBCED2038401F00ADF5A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		847EBCF02038401F00ADF5A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		847EBCF22038401F00ADF5A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		847EBCF52038401F00ADF5A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		847EBCF72038401F00ADF5A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847EBCFC2038401F00ADF5A0 /* Taschenrechner-1-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taschenrechner-1-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		847EBD002038402000ADF5A0 /* Taschenrechner_1_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taschenrechner_1_Tests.swift; sourceTree = "<group>"; };
+		847EBD022038402000ADF5A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847EBD072038402000ADF5A0 /* Taschenrechner-1-UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taschenrechner-1-UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		847EBD0B2038402000ADF5A0 /* Taschenrechner_1_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taschenrechner_1_UITests.swift; sourceTree = "<group>"; };
+		847EBD0D2038402000ADF5A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		847EBCE52038401F00ADF5A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847EBCF92038401F00ADF5A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847EBD042038402000ADF5A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		847EBCDF2038401F00ADF5A0 = {
+			isa = PBXGroup;
+			children = (
+				847EBCEA2038401F00ADF5A0 /* Taschenrechner-1- */,
+				847EBCFF2038402000ADF5A0 /* Taschenrechner-1-Tests */,
+				847EBD0A2038402000ADF5A0 /* Taschenrechner-1-UITests */,
+				847EBCE92038401F00ADF5A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		847EBCE92038401F00ADF5A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				847EBCE82038401F00ADF5A0 /* Taschenrechner-1-.app */,
+				847EBCFC2038401F00ADF5A0 /* Taschenrechner-1-Tests.xctest */,
+				847EBD072038402000ADF5A0 /* Taschenrechner-1-UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		847EBCEA2038401F00ADF5A0 /* Taschenrechner-1- */ = {
+			isa = PBXGroup;
+			children = (
+				847EBCEB2038401F00ADF5A0 /* AppDelegate.swift */,
+				847EBCED2038401F00ADF5A0 /* ViewController.swift */,
+				847EBCEF2038401F00ADF5A0 /* Main.storyboard */,
+				847EBCF22038401F00ADF5A0 /* Assets.xcassets */,
+				847EBCF42038401F00ADF5A0 /* LaunchScreen.storyboard */,
+				847EBCF72038401F00ADF5A0 /* Info.plist */,
+			);
+			path = "Taschenrechner-1-";
+			sourceTree = "<group>";
+		};
+		847EBCFF2038402000ADF5A0 /* Taschenrechner-1-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				847EBD002038402000ADF5A0 /* Taschenrechner_1_Tests.swift */,
+				847EBD022038402000ADF5A0 /* Info.plist */,
+			);
+			path = "Taschenrechner-1-Tests";
+			sourceTree = "<group>";
+		};
+		847EBD0A2038402000ADF5A0 /* Taschenrechner-1-UITests */ = {
+			isa = PBXGroup;
+			children = (
+				847EBD0B2038402000ADF5A0 /* Taschenrechner_1_UITests.swift */,
+				847EBD0D2038402000ADF5A0 /* Info.plist */,
+			);
+			path = "Taschenrechner-1-UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		847EBCE72038401F00ADF5A0 /* Taschenrechner-1- */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847EBD102038402000ADF5A0 /* Build configuration list for PBXNativeTarget "Taschenrechner-1-" */;
+			buildPhases = (
+				847EBCE42038401F00ADF5A0 /* Sources */,
+				847EBCE52038401F00ADF5A0 /* Frameworks */,
+				847EBCE62038401F00ADF5A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Taschenrechner-1-";
+			productName = "Taschenrechner-1-";
+			productReference = 847EBCE82038401F00ADF5A0 /* Taschenrechner-1-.app */;
+			productType = "com.apple.product-type.application";
+		};
+		847EBCFB2038401F00ADF5A0 /* Taschenrechner-1-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847EBD132038402000ADF5A0 /* Build configuration list for PBXNativeTarget "Taschenrechner-1-Tests" */;
+			buildPhases = (
+				847EBCF82038401F00ADF5A0 /* Sources */,
+				847EBCF92038401F00ADF5A0 /* Frameworks */,
+				847EBCFA2038401F00ADF5A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847EBCFE2038401F00ADF5A0 /* PBXTargetDependency */,
+			);
+			name = "Taschenrechner-1-Tests";
+			productName = "Taschenrechner-1-Tests";
+			productReference = 847EBCFC2038401F00ADF5A0 /* Taschenrechner-1-Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		847EBD062038402000ADF5A0 /* Taschenrechner-1-UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847EBD162038402000ADF5A0 /* Build configuration list for PBXNativeTarget "Taschenrechner-1-UITests" */;
+			buildPhases = (
+				847EBD032038402000ADF5A0 /* Sources */,
+				847EBD042038402000ADF5A0 /* Frameworks */,
+				847EBD052038402000ADF5A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847EBD092038402000ADF5A0 /* PBXTargetDependency */,
+			);
+			name = "Taschenrechner-1-UITests";
+			productName = "Taschenrechner-1-UITests";
+			productReference = 847EBD072038402000ADF5A0 /* Taschenrechner-1-UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		847EBCE02038401F00ADF5A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					847EBCE72038401F00ADF5A0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					847EBCFB2038401F00ADF5A0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 847EBCE72038401F00ADF5A0;
+					};
+					847EBD062038402000ADF5A0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 847EBCE72038401F00ADF5A0;
+					};
+				};
+			};
+			buildConfigurationList = 847EBCE32038401F00ADF5A0 /* Build configuration list for PBXProject "Taschenrechner-1-" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 847EBCDF2038401F00ADF5A0;
+			productRefGroup = 847EBCE92038401F00ADF5A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				847EBCE72038401F00ADF5A0 /* Taschenrechner-1- */,
+				847EBCFB2038401F00ADF5A0 /* Taschenrechner-1-Tests */,
+				847EBD062038402000ADF5A0 /* Taschenrechner-1-UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		847EBCE62038401F00ADF5A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847EBCF62038401F00ADF5A0 /* LaunchScreen.storyboard in Resources */,
+				847EBCF32038401F00ADF5A0 /* Assets.xcassets in Resources */,
+				847EBCF12038401F00ADF5A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847EBCFA2038401F00ADF5A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847EBD052038402000ADF5A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		847EBCE42038401F00ADF5A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847EBCEE2038401F00ADF5A0 /* ViewController.swift in Sources */,
+				847EBCEC2038401F00ADF5A0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847EBCF82038401F00ADF5A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847EBD012038402000ADF5A0 /* Taschenrechner_1_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847EBD032038402000ADF5A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847EBD0C2038402000ADF5A0 /* Taschenrechner_1_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		847EBCFE2038401F00ADF5A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 847EBCE72038401F00ADF5A0 /* Taschenrechner-1- */;
+			targetProxy = 847EBCFD2038401F00ADF5A0 /* PBXContainerItemProxy */;
+		};
+		847EBD092038402000ADF5A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 847EBCE72038401F00ADF5A0 /* Taschenrechner-1- */;
+			targetProxy = 847EBD082038402000ADF5A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		847EBCEF2038401F00ADF5A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847EBCF02038401F00ADF5A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		847EBCF42038401F00ADF5A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847EBCF52038401F00ADF5A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		847EBD0E2038402000ADF5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		847EBD0F2038402000ADF5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		847EBD112038402000ADF5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Taschenrechner-1-/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "elmasconsulting.Taschenrechner-1-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		847EBD122038402000ADF5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Taschenrechner-1-/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "elmasconsulting.Taschenrechner-1-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		847EBD142038402000ADF5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Taschenrechner-1-Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "elmasconsulting.Taschenrechner-1-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taschenrechner-1-.app/Taschenrechner-1-";
+			};
+			name = Debug;
+		};
+		847EBD152038402000ADF5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Taschenrechner-1-Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "elmasconsulting.Taschenrechner-1-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taschenrechner-1-.app/Taschenrechner-1-";
+			};
+			name = Release;
+		};
+		847EBD172038402000ADF5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Taschenrechner-1-UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "elmasconsulting.Taschenrechner-1-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Taschenrechner-1-";
+			};
+			name = Debug;
+		};
+		847EBD182038402000ADF5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Taschenrechner-1-UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "elmasconsulting.Taschenrechner-1-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Taschenrechner-1-";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		847EBCE32038401F00ADF5A0 /* Build configuration list for PBXProject "Taschenrechner-1-" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847EBD0E2038402000ADF5A0 /* Debug */,
+				847EBD0F2038402000ADF5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847EBD102038402000ADF5A0 /* Build configuration list for PBXNativeTarget "Taschenrechner-1-" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847EBD112038402000ADF5A0 /* Debug */,
+				847EBD122038402000ADF5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847EBD132038402000ADF5A0 /* Build configuration list for PBXNativeTarget "Taschenrechner-1-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847EBD142038402000ADF5A0 /* Debug */,
+				847EBD152038402000ADF5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847EBD162038402000ADF5A0 /* Build configuration list for PBXNativeTarget "Taschenrechner-1-UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847EBD172038402000ADF5A0 /* Debug */,
+				847EBD182038402000ADF5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 847EBCE02038401F00ADF5A0 /* Project object */;
+}
